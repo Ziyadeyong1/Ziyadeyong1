@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Delicious Biryani</title>
+<link rel="stylesheet" type="text/css" href="entrep.css">
+<a href="https://www.JardindesDelices">Visit us</a>
+</head>
+<body>
+  <header>
+    <h1>Delicious Biryani</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img src="biryani_image.jpg" alt="Biryani Image">
+      <h2>Experience the Taste of Authentic Biryani</h2>
+      <p>The finest ingredients, traditional recipes, and a passion for flavor.</p>
+      <button>Order Now</button>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <ul>
+        <li>Chicken Biryani</li>
+        <li>Lamb Biryani</li>
+        <li>Vegetable Biryani</li>
+        <li>Prawn Biryani</li>
+        <!-- Add more menu items -->
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are passionate about serving authentic and delicious biryani.  Our recipes have been passed down through generations...</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: info@deliciousbiryani.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Delicious Biryani</p>
+  </footer>
+</body>
+</html>
+
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+#menu, #about, #contact {
+  padding: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
